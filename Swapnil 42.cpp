@@ -59,9 +59,9 @@ int main()
 {
     int i, n;
     cin>>n;
-    for(int i=1; i<=n; i++);
+    for(int i=1; i<=n; i++)
     {
-        cout<<i;
+        cout<<i ;
     }
     return 0;
 }
