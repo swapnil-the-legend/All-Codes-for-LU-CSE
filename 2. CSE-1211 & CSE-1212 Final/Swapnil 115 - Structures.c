@@ -1,0 +1,32 @@
+#include<stdio.h>
+struct stdinfo
+{
+    char stdname[50];
+    float CGPA;
+    int LU_ID;
+    int LU_Batch;
+};
+
+int main()
+{
+    struct stdinfo s1;
+    struct stdinfo s2;
+    struct stdinfo s3;
+    struct stdinfo s4;
+    struct stdinfo s5;
+
+    scanf("%s %f %d %d", &s1.stdname, &s1.CGPA, &s1.LU_ID,  &s1.LU_Batch);
+    scanf("%s %f %d %d", &s2.stdname, &s2.CGPA, &s2.LU_ID,  &s2.LU_Batch);
+    scanf("%s %f %d %d", &s3.stdname, &s3.CGPA, &s3.LU_ID,  &s3.LU_Batch);
+    scanf("%s %f %d %d", &s4.stdname, &s4.CGPA, &s4.LU_ID,  &s4.LU_Batch);
+    scanf("%s %f %d %d", &s5.stdname, &s5.CGPA, &s5.LU_ID,  &s5.LU_Batch);
+
+    printf("\n");
+    printf("%s %.2f %d %d\n", s1.stdname, s1.CGPA, s1.LU_ID,  s1.LU_Batch);
+    printf("%s %.2f %d %d\n", s2.stdname, s2.CGPA, s2.LU_ID,  s2.LU_Batch);
+    printf("%s %.2f %d %d\n", s3.stdname, s3.CGPA, s3.LU_ID,  s3.LU_Batch);
+    printf("%s %.2f %d %d\n", s4.stdname, s4.CGPA, s4.LU_ID,  s4.LU_Batch);
+    printf("%s %.2f %d %d\n", s5.stdname, s5.CGPA, s5.LU_ID,  s5.LU_Batch);
+
+    return 0;
+}

@@ -1,0 +1,80 @@
+#include <stdio.h>
+
+void addition()
+{
+    printf("choose 2 numbers: ");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("result = %d\n\n", a + b);
+}
+void subtract()
+{
+    printf("choose 2 numbers: ");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("result = %d\n\n", a - b);
+}
+void multiplication()
+{
+    printf("choose 2 numbers: ");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("result = %d\n\n", a * b);
+}
+void division()
+{
+    printf("choose 2 numbers: ");
+    int a, b;
+    scanf("%d %d", &a, &b);
+    printf("result = %d\n\n", a / b);
+}
+
+int main()
+{
+again:
+    {
+        printf("1. Addition\n");
+        printf("2. Subtraction\n");
+        printf("3. Multiplication\n");
+        printf("4. Division\n");
+        printf("5. Exit\n\n");
+        printf("choose your option: ");
+        int c;
+        scanf("%d", &c);
+
+        if (c == 5)
+        {
+            return 0;
+        }
+        else if (c == 1)
+        {
+            addition();
+            goto again;
+        }
+        else if (c == 2)
+        {
+            subtract();
+            goto again;
+        }
+        else if (c == 3)
+        {
+            multiplication();
+            goto again;
+        }
+        else if (c == 4)
+        {
+            division();
+            goto again;
+        }
+        else if (c == 5)
+        {
+            return 0;
+        }
+        else
+        {
+            printf("Invalid choice\n\n");
+            goto again;
+        }
+    }
+    return 0;
+}

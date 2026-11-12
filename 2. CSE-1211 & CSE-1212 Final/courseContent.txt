@@ -1,0 +1,20 @@
+Course Outline
+
+Functions ---
+
+1. What is a Function? and Basic syntax and function prototype
+2. Calling Vs Called Function
+3. Parameter vs Argument
+4. Function Scope
+5. Compiler Parsing Behavior of a function -->
+implicit behavior in C89/C90 standard
+
+6. Call By value and Call by reference (complete pointer first)
+
+(Optional) 7. A function calling a function
+
+Pointers ---
+(*)
+
+1. What is a pointer? and Basic Syntax
+

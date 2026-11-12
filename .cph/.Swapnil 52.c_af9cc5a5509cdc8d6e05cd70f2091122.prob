@@ -1,0 +1,1 @@
+{"name":"Local: Swapnil 52","url":"d:\\Coding for LU CSE\\Swapnil 52.c","tests":[{"id":1786290198873,"input":"1 2","output":"3"},{"id":1786290543029,"input":"100 200","output":"300"},{"id":1786290544548,"input":"10 40","output":"50"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Coding for LU CSE\\Swapnil 52.c","group":"local","local":true}

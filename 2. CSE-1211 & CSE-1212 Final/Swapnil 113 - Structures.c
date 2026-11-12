@@ -1,0 +1,19 @@
+#include<stdio.h>
+struct stdinfo
+{
+    char stdname[50];
+    float CGPA;
+    int LU_ID;
+}s2;
+
+int main()
+{
+    struct stdinfo s1={"Swapnil", 3.42, 142};
+    s2=s1;
+
+    printf("%s %.2f %d", s1.stdname, s1.CGPA, s1.LU_ID);
+    printf("\n");
+    printf("%s %.2f %d", s2.stdname, s2.CGPA, s2.LU_ID);
+
+    return 0;
+}

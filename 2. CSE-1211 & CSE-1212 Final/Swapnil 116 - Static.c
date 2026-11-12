@@ -1,0 +1,18 @@
+#include<stdio.h>
+int sta()
+{
+    static int CR=0;
+    CR++;
+    printf("%d ", CR);
+}
+
+int main()
+{
+    sta();
+    sta();
+    sta();
+
+    return 0;
+}
+
+//With static

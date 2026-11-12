@@ -1,0 +1,19 @@
+#include<stdio.h>
+int leap_year()
+{
+    printf("Enter the year: ");
+    unsigned int year;
+    scanf("%u", &year);
+    if(year%400==0)
+        printf("Leap year");
+    else if(year%4==0 && 100%!=0)
+        printf("Leap year");
+    else
+        printf("Not leap year");
+}
+
+int main()
+{
+    leap_year();
+    return 0;
+}

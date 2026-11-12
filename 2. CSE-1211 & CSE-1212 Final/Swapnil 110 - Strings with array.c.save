@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+    char arr[4]={'A', 'r', 'i', 'f'};
+    printf("Enter 4 characters: ");
+
+    for(int i=0; i<8; i++)
+    {
+        scanf("%c", &arr[i]);
+    }
+    
+    printf("The characters are: ");
+    
+    for(int i=0; i<8; i++)
+    {
+        printf("%c", arr[i]);
+    }
+    
+    return 0;
+}

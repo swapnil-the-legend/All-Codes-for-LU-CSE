@@ -1,0 +1,83 @@
+#include<stdio.h>
+void intro()
+{
+    printf("1. Do-while\n");
+    printf("2. While\n");
+    printf("3. For\n");
+    printf("4. Exit\n");
+    printf("Enter the choice: ");
+}
+
+int do_while_func()
+{
+    printf("Enter the number: ");
+    int i=1, n;
+    scanf("%d", &n);
+    printf("\n");
+    do
+    {
+        printf("%d ", i);
+        i++;
+    }
+    while(i<=n);
+    printf("\n\n");
+}
+
+int while_func()
+{
+    printf("Enter the number: ");
+    int i=1, n;
+    scanf("%d", &n);
+    printf("\n");
+    while(i<=n)
+    {
+        printf("%d ", i);
+        i++;
+    }
+    printf("\n\n");
+}
+
+int for_func()
+{
+    printf("Enter the number: ");
+    int i, n;
+    scanf("%d", &n);
+    printf("\n");
+    for(i=1; i<=n; i++)
+    {
+        printf("%d ", i);
+    }
+    printf("\n\n");
+}
+
+int main()
+{
+    while(1)
+    {
+        intro();
+        int choice;
+        scanf("%d", &choice);
+        switch(choice)
+        {
+        case 1:
+            do_while_func();
+            break;
+
+        case 2:
+            while_func();
+            break;
+
+        case 3:
+            for_func();
+            break;
+
+        case 4:
+            return 0;
+            break;
+
+        default:
+            printf("Invalid choice\n\n");
+        }
+    }
+    return 0;
+}

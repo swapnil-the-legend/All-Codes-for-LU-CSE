@@ -1,0 +1,11 @@
+#include<stdio.h>
+int even(int n)
+{
+    for(int n=1; n<=10;)
+}
+
+int main()
+{
+    even(n);
+    return 0;
+}
