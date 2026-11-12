@@ -1,86 +1,55 @@
 #include<iostream>
 using namespace std;
-
-int a, b;
-
-void add()
-{
-    cout<<"Enter two numbers: ";
-    cin>>a>>b;
-    int sum=a+b;
-    cout<<"Result: "<<sum<<endl<<endl;
-}
-
-void sub()
-{
-    cout<<"Enter two numbers: ";
-    cin>>a>>b;
-    int sub=a-b;
-    cout<<"Result: "<<sub<<endl<<endl;
-}
-
-void multi()
-{
-    cout<<"Enter two numbers: ";
-    cin>>a>>b;
-    int multi=a*b;
-    cout<<"Result: "<<multi<<endl<<endl;
-}
-
-void div()
-{
-    cout<<"Enter two numbers: ";
-    cin>>a>>b;
-    int div;
-    if(b==0)
-    {
-        cout<<"Cannot be divided by zero"<<endl<<endl;
-    }
-    else
-    {
-        div=a/b;
-        cout<<"Result: "<<div<<endl<<endl;
-    }
-}
-
 int main()
 {
-    while(1)
+    int t; //Test case as "t".
+    cin>>t; //Input "t" for test case.
+    while(t>0) //Must be positive and natural number.
     {
-        int choice;
-        cout<<"=== Calculator Menu ==="<<endl;
-        cout<<"1. Addition"<<endl;
-        cout<<"2. Substraction"<<endl;
-        cout<<"3. Muliplication"<<endl;
-        cout<<"4. Division"<<endl;
-        cout<<"5. Exit"<<endl;
-        cout<<"Enter the choice: ";
-        cin>>choice;
-        switch(choice)
-        {
-            case 1:
-                add();
-                break;
+        int a, b;
+        cin>>a>>b;
+        int sum=a+b;
+        cout<<sum<<endl;
+        
+        //(Code)
 
-            case 2:
-                sub();
-                break;
-
-            case 3:
-                multi();
-                break;
-
-            case 4:
-                div();
-                break;
-
-            case 5:
-                return 0;
-
-            default:
-                cout<<"Invalid choice"<<endl<<endl;
-                break;
-        }
+        t--; //t=t-1, Current test case = Base test case - 1
     }
     return 0;
 }
+
+//Somewhat good for competitive programming :-)
+
+/*
+Example:
+
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t;
+    cin>>t;
+    while(t>0)
+    {
+        int a, b;
+        cin>>a>>b;
+        int sum=a+b;
+        cout<<sum<<endl;
+
+        t--;
+    }
+    return 0;
+}
+
+Input:
+3 = Number of test cases (main, Test case "t")
+2 2 = Test case 1
+4 4 = Test case 2
+6 6 = Test case 3
+
+Output:
+4 = Test case 1
+8 = Test case 2
+12 = Test case 3
+
+*/
