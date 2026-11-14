@@ -1,4 +1,4 @@
-//Copyright by Shahadat Hossain Swapnil
+//Can you survive Swapnil?
 
 #include<stdio.h>
 int main()
@@ -15,7 +15,7 @@ int main()
             scanf("%d", &score);
             if(score>=80 && score<=100)
             {
-                printf("You are survived. So, Akhi and everyone will congratulate you.");
+                printf("You are survived. So, Akhi, Jubayer and everyone will congratulate you.");
             }
             else if(score>=40 && score<=80)
             {
@@ -23,12 +23,12 @@ int main()
             }
             else
             {
-                printf("You are not survived. So, Akhi and everyone will cry.");
+                printf("You are not survived. So, Akhi, Jubayer and everyone will cry.");
             }
             break;
     
         case 'N':
-            printf("You are not survived. So, Akhi and everyone will cry.");
+            printf("You are not survived. So, Akhi, Jubayer and everyone will cry.");
             break;
     
         default:

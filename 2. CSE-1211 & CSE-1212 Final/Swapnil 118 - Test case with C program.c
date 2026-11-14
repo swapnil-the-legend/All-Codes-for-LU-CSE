@@ -5,6 +5,11 @@ int main()
     scanf("%d", &t); //Input "t" for test case.
     while(t>0) //Must be positive and natural number.
     {
+        int a, b;
+        scanf("%d %d", &a, &b);
+        int sum=a+b;
+        printf("%d\n", sum);
+        
         //(Code)
 
         t--; //t=t-1, Current test case = Base test case - 1

@@ -21,6 +21,7 @@ Prime count = 3
 */
 
 //Solution:
+//Copyright by Ridoy (ID: 0182610012101162)
 
 #include<stdio.h>
 

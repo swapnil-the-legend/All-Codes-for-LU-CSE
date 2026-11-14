@@ -1,3 +1,6 @@
+//This code is incomplete due to unavoidable reasons.
+
+/*
 #include<stdio.h>
 int main()
 {
@@ -56,3 +59,4 @@ int main()
             printf("")
         }
 }
+*/

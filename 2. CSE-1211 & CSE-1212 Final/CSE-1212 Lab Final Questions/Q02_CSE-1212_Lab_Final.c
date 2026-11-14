@@ -20,6 +20,7 @@ Reverse = gnimmargorp gnihcaet ris namaJ
 */
 
 //Solution:
+//Copyright by Ridoy (ID: 0182610012101162)
 
 #include<stdio.h>
 #include<string.h>
