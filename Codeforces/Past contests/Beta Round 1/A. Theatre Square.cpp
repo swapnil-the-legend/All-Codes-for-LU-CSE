@@ -4,8 +4,8 @@ int main()
 {
     int n, m, a;
     cin>>n>>m>>a;
-    int sq=n*m+a*a;
-    cout<<sq;
+    int sq1=n*m+a*a;
+    cout<<a;
     return 0;
 }
 
