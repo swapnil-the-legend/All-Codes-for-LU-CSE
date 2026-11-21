@@ -1,0 +1,23 @@
+{
+    "recommendations": [
+        //C/C++
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-extension-pack",
+        "formulahendry.code-runner",
+        "llvm-vs-code-extensions.vscode-clangd",
+        "ms-vscode.cmake-tools",
+        "usernamehw.errorlens",
+        "eamodio.gitlens",
+        "PKief.material-icon-theme",
+        //Python
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "ms-python.debugpy",
+        "ms-toolsai.jupyter",
+        "charliermarsh.ruff",
+        //Java
+        "redhat.java",
+        "vscjava.vscode-java-debug",
+        "vscjava.vscode-java-pack"
+    ]
+}

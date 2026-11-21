@@ -2,6 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
+            //C/C++
             "name": "Debug C/C++ with GCC 16.2.0",
             "type": "cppdbg",
             "request": "launch",
@@ -14,6 +15,22 @@
             "MIMode": "gdb",
             "miDebuggerPath": "C:/msys64/ucrt64/bin/gdb.exe",
             "preLaunchTask": "Build C++23 with GCC 16.2.0"
+        },
+        {
+            //Python
+            "name": "Python: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            //Java
+            "type": "java",
+            "name": "Launch Java",
+            "request": "launch",
+            "mainClass": "Main"
         }
     ]
 }
