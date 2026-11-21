@@ -9,7 +9,7 @@ void choice()
     printf("Enter the choice: ");
 }
 
-int addition()
+void addition()
 {
     printf("Enter two numbers: ");
     int a1, b1;
@@ -18,7 +18,7 @@ int addition()
     printf("Result: %d\n\n", add);
 }
 
-int subtraction()
+void subtraction()
 {
     printf("Enter two numbers: ");
     int a2, b2;
@@ -27,7 +27,7 @@ int subtraction()
     printf("Result: %d\n\n", sub);
 }
 
-int multiplication()
+void multiplication()
 {
     printf("Enter two numbers: ");
     int a3, b3;
@@ -36,7 +36,7 @@ int multiplication()
     printf("Result: %d\n\n", multi);
 }
 
-int division()
+void division()
 {
     printf("Enter two numbers: ");
     float a4, b4;
