@@ -3,7 +3,7 @@ int main()
 {
     int w;
     scanf("%d", &w);
-    
+
     if(w%2)
     {
         printf("No");
