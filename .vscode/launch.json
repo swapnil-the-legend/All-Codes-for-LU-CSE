@@ -3,7 +3,7 @@
     "configurations": [
         {
             //C/C++
-            "name": "Debug C/C++ with GCC 16.2.0",
+            "name": "C/C++",
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}\\${fileBasenameNoExtension}.exe",
@@ -18,7 +18,7 @@
         },
         {
             //Python
-            "name": "Python: Current File",
+            "name": "Python",
             "type": "debugpy",
             "request": "launch",
             "program": "${file}",
@@ -27,8 +27,8 @@
         },
         {
             //Java
+            "name": "Java",
             "type": "java",
-            "name": "Launch Java",
             "request": "launch",
             "mainClass": "Main"
         }

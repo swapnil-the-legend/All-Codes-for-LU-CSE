@@ -3,8 +3,8 @@
     "tasks": [
         {
             //C/C++
-            "type": "cppbuild",
             "label": "Build C++23 with GCC 16.2.0",
+            "type": "cppbuild",
             "command": "C:/msys64/ucrt64/bin/g++.exe",
             "args": [
                 "-std=c++23",

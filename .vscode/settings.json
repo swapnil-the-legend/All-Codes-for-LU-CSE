@@ -14,13 +14,6 @@
     "files.encoding": "utf8",
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    //Code Runner settings
-    "code-runner.runInTerminal": true,
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.clearPreviousOutput": true,
-    "code-runner.executorMap": {
-        "cpp": "cd $dir && g++ -std=c++23 -O2 -Wall -Wextra $fileName -o $fileNameWithoutExt.exe && ./$fileNameWithoutExt.exe"
-    },
     //Terminal settings
     "terminal.integrated.defaultProfile.windows": "PowerShell",
     //Git settings
