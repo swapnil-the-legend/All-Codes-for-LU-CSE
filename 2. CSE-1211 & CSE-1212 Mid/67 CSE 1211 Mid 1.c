@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include <stdbool.h>
 
-int main() {
-
-
+int main()
+{
     bool d;
     int a = 1, b = 0;
     char x = 'A';
