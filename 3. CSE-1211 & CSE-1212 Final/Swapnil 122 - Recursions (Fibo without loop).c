@@ -5,12 +5,12 @@ int fibo(int n)
     {
         return 1;
     }
-    return (n - 1) + (n - 2);
+    return fibo(n - 1) + fibo(n - 2);
 }
 
 int main()
 {
-    int ans = fibo(4); // Input n=6
+    int ans = fibo(6); // Input n=6
     printf("%d", ans);
 
     return 0;
