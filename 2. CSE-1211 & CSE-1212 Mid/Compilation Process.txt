@@ -1,0 +1,27 @@
+SOURCE FILE (.c)
+
+|
+V
+
+PREPROCESSOR (#include, #define)
+
+| (.i)
+V
+
+COMPILER (Source code -> Assembly code)
+
+| (.s)
+V
+
+ASSEMBLER (Assembly code -> Machine/Object code)
+
+| (.o)
+V
+
+LINKER (<stdio.h>, <stdlib>)
+
+|
+V
+
+EXECUTABLE FILE (.exe)
+
