@@ -18,7 +18,7 @@ ASSEMBLER (Assembly code -> Machine/Object code)
 | (.o)
 V
 
-LINKER (<stdio.h>, <stdlib>)
+LINKER (<stdio.h>, <stdlib.h>)
 
 |
 V
