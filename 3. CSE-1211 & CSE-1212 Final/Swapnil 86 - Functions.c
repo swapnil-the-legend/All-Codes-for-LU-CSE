@@ -2,18 +2,18 @@
 int SWAPNILCRAFT_1();
 int SWAPNILCRAFT_2();
 int SWAPNILCRAFT_3();
-int SWAPNILCRAFT_4();
+float SWAPNILCRAFT_4();
 
 int main()
 {
     int result1=SWAPNILCRAFT_1();
     int result2=SWAPNILCRAFT_2();
     int result3=SWAPNILCRAFT_3();
-    int result4=SWAPNILCRAFT_4();
+    float result4=SWAPNILCRAFT_4();
     printf("%d\n", result1);
     printf("%d\n", result2);
     printf("%d\n", result3);
-    printf("%d\n", result4);
+    printf("%.2f\n", result4);
     return 0;
 }
 
@@ -35,9 +35,9 @@ int SWAPNILCRAFT_3()
     return num5*num6;
 }
 
-int SWAPNILCRAFT_4()
+float SWAPNILCRAFT_4()
 {
-    int num7=168, num8=42;
+    float num7=142, num8=168;
     return num7/num8;
 }
 

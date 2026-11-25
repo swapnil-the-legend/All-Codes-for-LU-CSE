@@ -40,13 +40,13 @@ void division()
 {
     printf("Enter two numbers: ");
     float a4, b4;
-    scanf("%d %d", &a4, &b4);
+    scanf("%f %f", &a4, &b4);
     if(b4==0)
         printf("Cannot be divided by zero\n\n");
     else
     {
         float div = a4 / b4;
-        printf("Result: %f\n\n", div);
+        printf("Result: %.2f\n\n", div);
     }
 }
 

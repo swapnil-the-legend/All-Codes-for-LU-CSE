@@ -20,7 +20,7 @@ int main()
 int SWAPNILCRAFT_1()
 {
     int num1, num2;
-    scanf("%d %d", &num1, num2);
+    scanf("%d %d", &num1, &num2);
     return num1+num2;
 }
 
@@ -34,14 +34,14 @@ int SWAPNILCRAFT_2()
 int SWAPNILCRAFT_3()
 {
     int num5, num6;
-    scanf("%d %d", &num5, num6);
+    scanf("%d %d", &num5, &num6);
     return num5*num6;
 }
 
 int SWAPNILCRAFT_4()
 {
     int num7, num8;
-    scanf("%d %d", &num7, num8);
+    scanf("%d %d", &num7, &num8);
     return num7/num8;
 }
 
