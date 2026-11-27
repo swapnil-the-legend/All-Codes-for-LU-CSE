@@ -1,4 +1,3 @@
-/*
 #include<iostream>
 using namespace std;
 int main()
@@ -48,19 +47,6 @@ int main()
     else
     {
         cout<<"zero";
-    }
-    return 0;
-}
-*/
-
-#include<iostream>
-using namespace std;
-int main()
-{
-    int n=5;
-    for(int i=1; i<=n; i++)
-    {
-        cout<<i<<" ";
     }
     return 0;
 }
